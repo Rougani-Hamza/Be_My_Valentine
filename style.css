@@ -1,0 +1,69 @@
+#root {
+    font-family: "Love Ya Like A Sister", cursive;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: #de9dee;
+  }
+  
+  .valentine-container {
+    background-color: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  }
+  .flower {
+    height: 20%;
+    width: 20%;
+    border-radius: 60%;
+  }
+  
+  .kiss {
+    height: 30%;
+    width: 30%;
+    border-radius: 60%;
+  }
+  
+  .both-Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+  }
+  .NoButton {
+    border: none;
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 15px;
+    color: rgb(219, 214, 214);
+    background-color: rgb(95, 0, 150);
+  }
+  .NoButton:hover {
+    background-color: rgb(253, 5, 100);
+  }
+  .yesButton {
+    border: none;
+    border-radius: 7px;
+    font-size: 50px;
+  }
+  .yesButton:hover {
+    background-color: #e2e73a;
+  }
+  .text {
+    font-family: "Lovers Quarrel", cursive;
+    font-size: 80px;
+    color: yellow;
+    font-weight: 250;
+    margin: 10px;
+  }
+  .footer{
+    font-family: "Lovers Quarrel", cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    background-color: rgb(95, 0, 150);
+    color: yellow;
+    font-weight: 60;
+    margin: 10px;
+  }
+  
